@@ -71,7 +71,7 @@ int main() {
 			
 					break;
 
-			case 3: // Sort function B
+			case 3: // Nick: Comb Sort
 			
 			        // First, copy the contents of the array 'data' to the working array 'wData'. Your program should sort 'wData' and not 'data'.
 			        
@@ -137,7 +137,7 @@ int main() {
 
 								break;
 
-			case 5: // Sort function D
+			case 5: // Nick: Radix Sort
 
 						        // First, copy the contents of the array 'data' to the working array 'wData'. Your program should sort 'wData' and not 'data'.
 
