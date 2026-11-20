@@ -2,7 +2,7 @@
 
 // Time Complexity: O(n^2), Ω(n^2 / p^2); Space Complexity: O(1)
 // Nicholas Kunishige
-void CombSort(long arr[], int n)
+void combSort(long arr[], int n)
 {
     // Shrink Factor for Comparison Gap
     const double shrink = 1.3;

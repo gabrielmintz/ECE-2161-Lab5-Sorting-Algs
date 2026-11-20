@@ -54,7 +54,7 @@ int main() {
 					end_time = clock();		// end cpu timer
 
 					cpu_time_used = (end_time - begin_time) / CLOCKS_PER_SEC;
-					cout << endl << "(A)Sort ran for " << cpu_time_used << " secs.";
+					cout << endl << "Bubble Sort ran for " << cpu_time_used << " secs.";
 			
 					ofilename = "lab5_A_out.txt";
 					writefile(wData, sz, ofilename);
@@ -82,7 +82,7 @@ int main() {
 					end_time = clock();		// end cpu timer
 
 					cpu_time_used = (end_time - begin_time) / CLOCKS_PER_SEC;
-					cout << endl << "(B)Sort ran for " << cpu_time_used << " secs.";
+					cout << endl << "Comb Sort ran for " << cpu_time_used << " secs.";
 			
 					ofilename = "lab5_B_out.txt";
 					writefile(wData, sz, ofilename);
@@ -111,9 +111,9 @@ int main() {
 					end_time = clock();		// end cpu timer
 
 					cpu_time_used = (end_time - begin_time) / CLOCKS_PER_SEC;
-					cout << endl << "(B)Sort ran for " << cpu_time_used << " secs.";
+					cout << endl << "Shell Sort ran for " << cpu_time_used << " secs.";
 
-					ofilename = "lab5_B_out.txt";
+					ofilename = "lab5_C_out.txt";
 					writefile(wData, sz, ofilename);
 
 					if (sz < 0)	 {
@@ -139,9 +139,9 @@ int main() {
 					end_time = clock();		// end cpu timer
 
 					cpu_time_used = (end_time - begin_time) / CLOCKS_PER_SEC;
-					cout << endl << "(B)Sort ran for " << cpu_time_used << " secs.";
+					cout << endl << "Radix Sort ran for " << cpu_time_used << " secs.";
 
-					ofilename = "lab5_B_out.txt";
+					ofilename = "lab5_D_out.txt";
 					writefile(wData, sz, ofilename);
 
 					if (sz < 0)
