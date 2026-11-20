@@ -1,7 +1,7 @@
 #include <string>
 #include <unistd.h>
 
-#define MAXSIZE	 2100000
+#define MAXSIZE	 2000000
 
 using namespace std;
 
